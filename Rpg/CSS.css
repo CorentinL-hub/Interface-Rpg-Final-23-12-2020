@@ -1,0 +1,124 @@
+lw { font-size: 60px; }
+
+
+
+.Top {
+  margin-left: 40px;
+  display :  flex;
+  flex-direction: row;
+}
+
+
+.Informations {
+  outline: 2px solid white;
+  background-color: #00FFFF;
+  margin-left: 10px;
+  margin-top: 10px;
+  display :  flex;
+}
+.Infos {
+  display :  flex;
+  flex-flow: column wrap;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.Bottom {
+  margin-top: 100px;
+  display :  flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.Actions{
+  margin-left: -100px;
+  outline: 2px solid white;
+  background-color: #FF00FF;
+  display :  flex;
+  flex-direction: column;
+}
+
+.Ennemis{
+  width : 400px;
+  height :  50px;
+  margin-left: 10px;
+  outline: 2px solid white;
+  background-color: #FF7F50;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.statsmonstres{
+  padding: 5px;
+  font-size: 1.5em;
+  background-color: #125451;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+  visibility: hidden;
+  width: 125px;
+  height: 100px;
+}
+
+.imagemonstre{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  position: relative;
+  top: -150px;
+  left: 100px;
+}
+
+.sectionATT1{
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  margin-top: 0px;
+  padding: 5px;
+}
+
+.actionsE{
+  display: inline-block;
+  padding: 5px;
+  font-size: 1em;
+  background-color: #122647;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.actionsS{
+  display: inline-block;
+  padding: 5px;
+  font-size: 1em;
+  background-color: #122647;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.actionsC{
+  display: inline-block;
+  padding: 5px;
+  font-size: 1em;
+  background-color: #122647;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.actionsF{
+  display: inline-block;
+  padding: 5px;
+  font-size: 1em;
+  background-color: #122647;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.section2{
+  display: inline-block;
+  position: relative;
+  padding: 5px;
+  top: -34px;
+  text-align: center;
+  font-size: 2em;
+  background-color: #122676;
+  border: 3mm ridge rgba(100, 100, 100, .8);
+}
+
+.bold{
+  font-weight: bold;
+}
